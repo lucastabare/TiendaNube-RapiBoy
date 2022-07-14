@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+   background-color:#f8faff;
+   font-family: 'Source Sans Pro';
+   font-style: normal;
+}
+
+h2{
+    color: #2559C1;
+}
+
+h4{
+    color: #2559C1;
+}
+
+hr{
+    width: 20%;
+    float: right;
+    border: 2px solid #CFCFCF;
+}
+
+/* -------------------------------------------------------------------------- */
+#vista1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista1 .tittle {
+    margin-top: 30px;
+}
+
+#vista1 .tittle h2 {
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+
+#vista1 .subTittle {
+    margin-top: 20px;
+    margin-left: -250px;
+    text-align: left;
+    
+}
+
+#vista1 .subTittle h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#vista1 .video {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    width: 800px;
+    height: 400px;
+    justify-content: center;
+    margin-top: 40px; 
+    position: static;
+}
+
+#vista .video iframe {}
+
+
+
+/* -------------------------------------------------------------------------- */
+#vista2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista2 hr{
+    margin-top: 40px;
+}
+
+#vista2 .tittle {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#vista2 .tittle h4 {
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#vista2 .tittle h6 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+/* -------------------------------------------------------------------------- */
+#vista3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista3 hr{
+    margin-top: 40px;
+}
+
+#vista3 .tittle {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#vista3 .tittle h4 {
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#vista3 .tittle h6 {
+    font-size: 22px;
+    font-weight: 300;
+    width: 45%;
+}
+
+#vista3 .subItems {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#vista3 .subItems h6 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#vista3 .subItems .subItems1 {
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+#vista3 .subItems .subItems1 .pelota {
+    width: 56px;
+    height: 56px;
+    background: #0000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#vista3 .subItems .subItems1 p {
+    font-size: 20px;
+    line-height: 25.14px;
+}
+
+#vista3 .subItems .subItems2 {
+    position: absolute;
+    width: 50%;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin-left: 45%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+#vista4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista4 hr{
+    margin-top: 40px;
+}
+
+#vista4 .tittle {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#vista4 .tittle h4 {
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#vista4 .tittle h6 {
+    font-size: 22px;
+    font-weight: 300;
+    width: 45%;
+}
+
+#vista4 .carrusel {
+    margin: 0 auto;
+    /* position: absolute; */
+    width: 90%;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+#vista5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista5 hr{
+    margin-top: 40px;
+}
+
+#vista5 .tittle {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#vista5 .tittle h4 {
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#vista5 .tittle h6 {
+    font-size: 22px;
+    font-weight: 300;
+    width: 45%;
+}
+
+#vista5 .subTittle {
+    margin-left: 80px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+#vista5 .subTittle .subItems1{
+    margin-top: 120px;
+}
+
+#vista5 .subTittle .subItems1 p{
+    font-size: 20px;
+    width: 90%;
+}
+
+#vista5 .subTittle .subItems2 p{
+    font-size: 20px;
+    width: 85%;
+}
+
+#vista5 .subTittle .carrusel {
+    position: absolute;
+    width: 50%;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin-left: 45%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+#vista6 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista6 hr{
+    margin-top: 40px;
+}
+
+#vista6 .tittle {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#vista6 .tittle h4 {
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#vista6 .tittle h6 {
+    font-size: 22px;
+    font-weight: 300;
+    width: 45%;
+}
+#vista6 .subTittle {
+    margin-left: 80px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+#vista6 .subTittle .subItems1{
+    margin-top: 120px;
+}
+
+#vista6 .subTittle .subItems1 p{
+    font-size: 20px;
+    width: 90%;
+}
+
+#vista6 .subTittle .subItems2 p{
+    font-size: 20px;
+    width: 85%;
+}
+
+#vista6 .subTittle .carrusel {
+    position: absolute;
+    width: 50%;
+    height: 420px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    margin-left: 45%;
+}
+
+
+/* -------------------------------------------------------------------------- */
+#vista7 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vista7 hr{
+    margin-top: 40px;
+}
+
+#vista7 .tittle {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+#vista7 .tittle h4 {
+    font-size: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#vista7 .subtittle1 {
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#vista7 .subtittle1 p {
+    font-size: 22px;
+}
+
+#vista7 .subtittle1 button {
+    font-size: 16px;
+    width: 284px;
+    height: 37px;
+    background: #2559C1;
+    border-radius: 63px;
+}
+
+#vista7 .subtittle2 {
+    float: right;
+    position: right bottom;
+    width: 60%;
+    margin-top: 50px;
+}
+
+#vista7 .subtittle2 h4{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    align-items: center;
+    color: #2559C1;
+    width: 100%;
+}
