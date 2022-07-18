@@ -66,6 +66,18 @@ hr{
     display: none;
 }
 
+.carousel-item .active {
+    border-radius: 15px;
+    top: 15px;
+}
+
+.swiper-pagination-bullet-active {
+    width: 25px !important;
+    height: 10px !important;
+    border-radius: 5px !important;
+    color: #2559C1 !important;
+}
+
 /* -------------------------------------------------------------------------- */
 #vista1 {
     width: 100%;
@@ -83,6 +95,11 @@ hr{
     font-weight: 900;
     font-size: 80px;
     text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 101px;
+    color: #2559C1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #vista1 .subTittle {
@@ -122,7 +139,7 @@ hr{
 
 #vista2 .hr{
     margin-left: 140%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #vista2 .tittle {
@@ -152,7 +169,7 @@ hr{
 
 #vista3 .hr{
     margin-left: 140%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #vista3 .tittle {
@@ -187,12 +204,13 @@ hr{
     margin-left: 60px;
 }
 
-#vista3 .subItems .subItems1 .pelota {
-    width: 56px;
-    height: 56px;
-    background: #0000;
+#vista3 .subItems .pelota {
+    width: 40px;
+    height: 40px;
+    background: #28B6F6;
     border-radius: 50%;
     position: absolute;
+    padding-right: 5px;
 }
 
 #vista3 .subItems .subItems1 p {
@@ -222,7 +240,7 @@ hr{
 
 #vista4 .hr{
     margin-left: 140%;
-    margin-top: 30px;
+    margin-top: 20px;
 } 
 
 #vista4 .tittle {
@@ -262,7 +280,7 @@ hr{
 
 #vista5 .hr{
     margin-left: 140%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #vista5 .tittle {
@@ -281,6 +299,15 @@ hr{
     width: 45%;
 }
 
+#vista5 .subTittle .pelota {
+    width: 80px;
+    height: 80px;
+    background: #28B6F6;
+    border-radius: 50%;
+    position: absolute;
+    padding-right: 5px;
+}
+
 #vista5 .subTittle {
     margin-left: 80px;
     margin-top: 20px;
@@ -289,6 +316,7 @@ hr{
 }
 #vista5 .subTittle .subItems1{
     margin-top: 120px;
+    margin-bottom: 40px;
 }
 
 #vista5 .subTittle .subItems1 p{
@@ -298,7 +326,8 @@ hr{
 
 #vista5 .subTittle .subItems2 p{
     font-size: 20px;
-    width: 85%;
+    width: 75%;
+    margin-left: 90px;
 }
 
 #vista5 .subTittle .carrusel {
@@ -323,7 +352,7 @@ hr{
 
 #vista6 .hr{
     margin-left: 140%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #vista6 .tittle {
@@ -347,6 +376,23 @@ hr{
     justify-content: center;
     
 }
+
+#vista6 .subTittle .pelota {
+    width: 80px;
+    height: 80px;
+    background: #28B6F6;
+    border-radius: 50%;
+    position: absolute;
+    padding-right: 5px;
+    margin-top: 25px;
+}
+
+#vista6 .subTittle .pelota img {
+    padding-left: 18px;
+    padding-top: 8px;
+    object-fit: contain;
+}
+
 #vista6 .subTittle .subItems1{
     margin-top: 120px;
 }
@@ -358,7 +404,8 @@ hr{
 
 #vista6 .subTittle .subItems2 p{
     font-size: 20px;
-    width: 85%;
+    width: 75%;
+    margin-left: 90px;
 }
 
 #vista6 .subTittle .carrusel {
@@ -383,7 +430,7 @@ hr{
 
 #vista7 .hr{
     margin-left: 140%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #vista7 .tittle {
