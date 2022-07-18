@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css" >
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div class="swiper">
 
         <div class="swiper-wrapper">
@@ -27,7 +32,10 @@
                     <h5>Ahora te mostraremos como configurar el servicio y utilizar todos los recursos.</h5>
                 </div>
                 <div class="col-12 video">
-                    VIDEO
+                    <iframe width="750" height="350" src="https://www.youtube-nocookie.com/embed/TJ9au-EcAZk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -36,19 +44,123 @@
 
                 <div class="col-12 hr">
                     <div class="img">
-                        <img class="px-2" src="rapiboy.png" width="100"/>
-                        <img class="px-2" src="tiendaNB.png" height="40"/>
+                        <img class="px-2" src="rapiboy.png" width="100" />
+                        <img class="px-2" src="tiendaNB.png" height="40" />
                     </div>
                     <hr />
                 </div>
 
                 <div class="col-12 tittle">
                     <h4>Crea tu cuenta Rapiboy</h4>
-                    <h6>En este primer paso necesitamos tus datos y los de tu empresa para poder crear una cuenta en Rapiboy.</h6>
+                    <!-- <h6>En este primer paso necesitamos tus datos y los de tu empresa para poder crear una cuenta en Rapiboy.</h6> -->
                 </div>
+                <div class="row">
+                    <div class="col-6">
+                        <h6>En este primer paso necesitamos tus datos y los de tu empresa para poder crear una cuenta en
+                            Rapiboy.</h6>
+                    </div>
+                    <div class="col-6 formulario">
+                        <!--FORMULARIO-->
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>
+                                    <b>Seleciona tu País</b>
+                                </label>
+                                <select class="form-control" name="" id=""></select>
+                                <span class="m-form__help"></span>
+                            </div>
+                        </div>
 
-                <div class="col-12 video">
-                    FORMULARIO
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control" placeholder="">
+                                <span class="m-form__help"></span>
+                            </div>
+                            <div class="col-lg-6">
+                                <label>Apellido</label>
+                                <input type="text" class="form-control" placeholder="">
+                                <span class="m-form__help"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>Telefono</label>
+                                <div class="input-group">
+                                    <input class="form-control phone" type="number" placeholder="Cod area">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text">
+                                            -
+                                        </span>
+                                    </div>
+                                    <input class="form-control phone" type="number" placeholder="Telefono">
+                                </div>
+                                <span class="m-form__help">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>Localidad</label>
+                                <select class="form-control" name="" id=""></select>
+                                <span class="m-form__help" id="divConoceZonaNo">
+                                    <strong data-tdp="tn13"></strong>
+                                </span>
+                            </div>
+                            <div class="col-lg-6" id="divConoceZonaSi">
+                                <label>Zona</label>
+                                <select class="form-control" name="" id=""></select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-lg-12">
+                                <label data-tdp="tn15">Direccion</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-lg-12">
+                                <label>Email de acceso</label>
+                                <input class="form-control" type="text">
+                                <span class="m-form__help"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>Nombre de tu empresa</label>
+                                <input class="form-control" type="text">
+                                <span class="m-form__help"></span>
+                            </div>
+                            <div class="col-lg-6">
+                                <label>Cuit</label>
+                                <input class="form-control" type="text">
+                                <span class="m-form__help"></span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="m-alert m-alert--outline m-alert--square alert alert-danger fade show"
+                                role="alert" id="divAlerta">
+                                Debes aceptar los terminos y condiciones primero
+                            </div>
+
+                            <div class="form-group m-form__group m-form__group--sm row">
+                                <div class="col-xl-12">
+                                    <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                        <input type="checkbox" name="Acepto" value="true" id="Acepto">
+                                        <text>He leído y acepto los</text>
+                                        <a href="#myModal" data-toggle="modal" data-target="#myModal" class="ml-50">
+                                            <b> Términos y Condiciones</b>
+                                        </a>
+                                        <span></span>
+                                    </label>
+                                </div>
+                            </div> -->
+                    </div>
                 </div>
             </div>
 
@@ -56,15 +168,16 @@
             <div class="col-xl-12 col-lg-12 swiper-slide" id="vista3">
                 <div class="col-12 hr">
                     <div class="img">
-                        <img class="px-2" src="rapiboy.png" width="100"/>
-                        <img class="px-2" src="tiendaNB.png" height="40"/>
+                        <img class="px-2" src="rapiboy.png" width="100" />
+                        <img class="px-2" src="tiendaNB.png" height="40" />
                     </div>
                     <hr />
                 </div>
-                
+
                 <div class="col-12 tittle">
                     <h4>Configuración de la App en Tienda Nube</h4>
-                    <h6>Ingresando en Tienda Nube a Configuraciones podrás ver tus metodos de entrega en tu país. Encontrarás la opción Rapiboy y una opción para editar.</h6>
+                    <h6>Ingresando en Tienda Nube a Configuraciones podrás ver tus metodos de entrega en tu país.
+                        Encontrarás la opción Rapiboy y una opción para editar.</h6>
                 </div>
                 <div class="col-12 subItems">
                     <div class="row">
@@ -73,29 +186,32 @@
                             <div class="pelota"></div>
                             <div class="subItems1">
                                 <p>
-                                    <b>Opciones de envío le permitirás elegir a tus clientes</b>
-                                    Ten en cuenta que nuestras modalidades Same Day y Next Day se presentarán al cliente dependiendo el horario del día en que haga la compra.
-                                    Si realiza la compra antes de un horario de corte determinado (ej: 12 am), se le ofrecerá envío SameDay (entrega en el mismo día). SI hace la compra luego del horario de corte, se le ofrecerá modalidad NextDay (entrega al día siguiente).
+                                    <b>Opciones de envío le permitirás elegir a tus clientes</b><br/>
+                                    Ten en cuenta que nuestras modalidades Same Day y Next Day se presentarán al cliente
+                                    dependiendo el horario del día en que haga la compra.
+                                    Si realiza la compra antes de un horario de corte determinado (ej: 12 am), se le
+                                    ofrecerá envío SameDay (entrega en el mismo día). SI hace la compra luego del
+                                    horario de corte, se le ofrecerá modalidad NextDay (entrega al día siguiente).
                                 </p>
                             </div>
                             <div class="pelota"></div>
                             <div class="subItems1">
                                 <p>
-                                    <b>Precio extra a cobrar por el envío</b>
+                                    <b>Precio extra a cobrar por el envío</b><br/>
                                     por sobre el que ya cobra Rapiboy por el envío.
                                 </p>
                             </div>
                             <div class="pelota"></div>
                             <div class="subItems1">
                                 <p>
-                                    <b>Plazo extra de entrega</b>
+                                    <b>Plazo extra de entrega</b><br/>
                                     Por sobre el que informa Rapiboy para entregar el envío.
                                 </p>
                             </div>
 
                         </div>
                         <div class="col-7 subItems2">
-                           <img src="imgV3.png" />
+                            <img src="imgV2.png" />
                         </div>
                     </div>
 
@@ -106,69 +222,79 @@
             <div class="col-xl-12 col-lg-12 swiper-slide" id="vista4">
                 <div class="col-12 hr">
                     <div class="img">
-                        <img class="px-2" src="rapiboy.png" width="100"/>
-                        <img class="px-2" src="tiendaNB.png" height="40"/>
+                        <img class="px-2" src="rapiboy.png" width="100" />
+                        <img class="px-2" src="tiendaNB.png" height="40" />
                     </div>
                     <hr />
                 </div>
-                
+
                 <div class="col-12 tittle">
                     <h4>Crear órdenes en Rapiboy</h4>
-                    <h6>Desde tu panel de ventas, podrás filtrar aquellas ventas tengan a Rapiboy como método de envío (elegido por los clientes al comprar).</h6>
+                    <h6>Desde tu panel de ventas, podrás filtrar aquellas ventas tengan a Rapiboy como método de envío
+                        (elegido por los clientes al comprar).</h6>
                 </div>
                 <div class="col-12 carrusel" id="carrusel">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="https://images.unsplash.com/photo-1621139261252-27d1a67449f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNhdmFubmF8ZW58MHx8MHx8&w=1000&q=80" class="d-block w-100 h-80" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg" class="d-block w-100 h-90" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://images.unsplash.com/photo-1592784201029-bdb351d47eff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80" class="d-block w-100 h-80" alt="...">
-                          </div>
+                            <div class="carousel-item active">
+                                <img src="https://images.unsplash.com/photo-1621139261252-27d1a67449f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNhdmFubmF8ZW58MHx8MHx8&w=1000&q=80"
+                                    class="d-block w-100 h-80" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg"
+                                    class="d-block w-100 h-90" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1592784201029-bdb351d47eff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
+                                    class="d-block w-100 h-80" alt="...">
+                            </div>
                         </div>
-                        
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
                 </div>
             </div>
 
             <!-- VISTA 5 -->
-            <div class="col-xl-12 col-lg-12 swiper-slide" id="vista5"> 
+            <div class="col-xl-12 col-lg-12 swiper-slide" id="vista5">
                 <div class="col-12 hr">
                     <div class="img">
-                        <img class="px-2" src="rapiboy.png" width="100"/>
-                        <img class="px-2" src="tiendaNB.png" height="40"/>
+                        <img class="px-2" src="rapiboy.png" width="100" />
+                        <img class="px-2" src="tiendaNB.png" height="40" />
                     </div>
                     <hr />
                 </div>
 
                 <div class="col-12 tittle">
                     <h4>Generar etiquetas de envío</h4>
-                    <h6>Una vez que las órdenes fueron enviadas a Rapiboy, podrás generar las etiquetas de envío para pagar en los paquetes.</h6>
+                    <h6>Una vez que las órdenes fueron enviadas a Rapiboy, podrás generar las etiquetas de envío para
+                        pagar en los paquetes.</h6>
                 </div>
                 <div class="col-12 subTittle">
                     <div class="row">
                         <div class="col-5">
                             <div class="subItems1">
-                                <p>Para esto, debes seleccionar las órdenes y en el menú de acciones seleccionar <b>Imprimir etiqueta Rapiboy.</b></p>
+                                <p>Para esto, debes seleccionar las órdenes y en el menú de acciones seleccionar
+                                    <b>Imprimir etiqueta Rapiboy.</b>
+                                </p>
                             </div>
                             <div class="pelota"></div>
                             <div class="subItems2">
-                                
-                                <p>Serás redirigido a una url en la que podrás <b>ver, descargar en pdf e imprimir</b> en las etiquetas de tus envíos.</p>
+
+                                <p>Serás redirigido a una url en la que podrás <b>ver, descargar en pdf e imprimir</b>
+                                    en las etiquetas de tus envíos.</p>
                             </div>
                         </div>
-                        <div class="col-7 carrusel" >
+                        <div class="col-7 carrusel">
                             <!-- <div class="swiper">
                                 <div class="swiper-wrapper">
                                 <div class="swiper-slide">Slide 1</div>
@@ -189,12 +315,12 @@
             <div class="col-xl-12 col-lg-12 swiper-slide" id="vista6">
                 <div class="col-12 hr">
                     <div class="img">
-                        <img class="px-2" src="rapiboy.png" width="100"/>
-                        <img  class="px-2" src="tiendaNB.png" height="40"/>
+                        <img class="px-2" src="rapiboy.png" width="100" />
+                        <img class="px-2" src="tiendaNB.png" height="40" />
                     </div>
                     <hr />
                 </div>
-                
+
                 <div class="col-12 tittle">
                     <h4>Hacer seguimiento de tus envíos</h4>
                 </div>
@@ -202,14 +328,17 @@
                     <div class="row">
                         <div class="col-5">
                             <div class="subItems1">
-                                <p>Desde tu panel de ventas, si ingresas a una orden, podrás ver el <b>código de seguimiento</b> de tu envío. Si haces click en ese código, te redireccionaremos a una URL donde podrás ver el estado de tu envío.</p>
+                                <p>Desde tu panel de ventas, si ingresas a una orden, podrás ver el <b>código de
+                                        seguimiento</b> de tu envío. Si haces click en ese código, te redireccionaremos
+                                    a una URL donde podrás ver el estado de tu envío.</p>
                             </div>
                             <div class="pelota">
                                 <img src="box.png" />
                             </div>
                             <div class="subItems2">
                                 <img />
-                                <p>A su vez, ese link puedes compartirlo con tu cliente final para que pueda hacer el seguimiento.</p>
+                                <p>A su vez, ese link puedes compartirlo con tu cliente final para que pueda hacer el
+                                    seguimiento.</p>
                             </div>
                         </div>
                         <div class="col-6 carrusel">
@@ -232,12 +361,12 @@
             <div class="col-xl-12 col-lg-12 swiper-slide" id="vista7">
                 <div class="col-12 hr">
                     <div class="img">
-                        <img class="px-2" src="rapiboy.png" width="100"/>
-                        <img class="px-2" src="tiendaNB.png" height="40"/>
+                        <img class="px-2" src="rapiboy.png" width="100" />
+                        <img class="px-2" src="tiendaNB.png" height="40" />
                     </div>
                     <hr />
                 </div>
-                
+
                 <div class="col-12 tittle">
                     <h4>Genial, ya está todo configurado</h4>
                     <h4>listo para empezar a operar</h4>
@@ -245,8 +374,10 @@
                 <div class="col-12">
                     <div class="row">
                         <div class="col-6 subtittle1">
-                            <p>Un representante de Rapiboy se pondrá en contacto para presentarse y disponibilizarse en caso de cualquier duda.</p>
-                            <p>Esta es la última vez que nos vemos por acá, ¡pero puedes descargar el tutorial para después!</p>
+                            <p>Un representante de Rapiboy se pondrá en contacto para presentarse y disponibilizarse en
+                                caso de cualquier duda.</p>
+                            <p>Esta es la última vez que nos vemos por acá, ¡pero puedes descargar el tutorial para
+                                después!</p>
                             <button class="btn-primary">Descargar tutorial en pdf</button>
                         </div>
                         <div class="col-6"></div>
@@ -256,71 +387,77 @@
                     </div>
                 </div>
             </div>
-          ...
+            ...
         </div>
 
         <div class="swiper-pagination"></div>
-
         <div class="swiper-button-prev">
             <i class="fa-solid fa-arrow-left"></i>
         </div>
         <div class="swiper-button-next">
             <i class="fa-solid fa-arrow-right"></i>
         </div>
-      </div>
+    </div>
 
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    
+
 </body>
+
 </html>
 
 <script>
     const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: false,
-  loop: false,
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+        loop: false,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    type: "bullets",
-    position: "bottom"
-  },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            type: "bullets",
+            position: "bottom"
+        },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-    position: 'bottom',
-  },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            position: 'bottom',
+        },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
 
-const swiper2 = new Swiper('#carrusel .swiper-container',{
-    slidesPerView: 1,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: '#carrusel .swiper .swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '#carrusel .swiper .swiper-button-next',
-      prevEl: '#carrusel .swiper .swiper-button-prev',
-    },
-  })
+    const swiper2 = new Swiper('#carrusel .swiper-container', {
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '#carrusel .swiper .swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '#carrusel .swiper .swiper-button-next',
+            prevEl: '#carrusel .swiper .swiper-button-prev',
+        },
+    })
 </script>
