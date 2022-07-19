@@ -70,8 +70,31 @@ hr{
     color: #2559C1 !important;
 }
 
-.carousel-control-next .carousel-control-prev {
-    top: 1px;
+#carouselExampleControls {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.carousel-control-prev {
+    top: inherit !important;
+    width: auto !important;
+    bottom: inherit !important;
+    opacity: 1 !important;
+}
+
+.carousel-control-next {
+    top: inherit !important;
+    width: auto !important;
+    bottom: inherit !important;
+    opacity: 1 !important;
+}
+
+/* .carousel-control-next-icon{
+    background-image: url(""); 
+}
+
+.carousel-control-prev-icon{
+    background-image: url("") ;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -308,13 +331,19 @@ hr{
     line-height: 25px;
     margin-top: 15%;
     margin-left: 25px;
+}
 
+#vista4 .exito {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 15%;
+    margin-left: 120px;
 }
 
 #vista4 .items-carrusel .row p {
     font-size: 18px;
     margin-left: 120px;
-
 }
 
 #vista4 .items-carrusel img { 
@@ -324,10 +353,6 @@ hr{
     margin-top: 5px;
 }
 
-#carouselExampleControls {
-    margin-top: 25px;
-    margin-right: 20px;
-}
 /* -------------------------------------------------------------------------- */
 #vista5 {
     width: 100%;
@@ -358,13 +383,25 @@ hr{
     width: 45%;
 }
 
-#vista5 .subTittle .pelota {
-    width: 80px;
-    height: 80px;
-    background: #28B6F6;
-    border-radius: 50%;
+#vista5 .items-carrusel-p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15%;
+    margin-left: 25px;
+
+}
+
+#vista5 .items-carrusel .row p {
+    font-size: 18px;
+    margin-left: 120px;
+
+}
+
+#vista5 .items-carrusel img { 
+    width: auto;
     position: absolute;
-    padding-right: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 #vista5 .subTittle {
@@ -383,11 +420,11 @@ hr{
     width: 90%;
 }
 
-#vista5 .subTittle .subItems2 p{
+/* #vista5 .subTittle .subItems2 p{
     font-size: 20px;
     width: 75%;
     margin-left: 90px;
-}
+} */
 
 #vista5 .subTittle .carrusel {
     position: absolute;
@@ -477,6 +514,26 @@ hr{
     margin-left: 45%;
 }
 
+#vista6 .items-carrusel-p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15%;
+    margin-left: 25px;
+
+}
+
+#vista6 .items-carrusel .row p {
+    font-size: 18px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#vista6 .items-carrusel img { 
+    width: auto;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+}
 
 /* -------------------------------------------------------------------------- */
 #vista7 {
