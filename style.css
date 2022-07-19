@@ -58,7 +58,7 @@ hr{
     display: none;
 }
 
-.carousel-item .active {
+.carousel-item {
     border-radius: 15px;
     top: 15px;
 }
@@ -68,6 +68,10 @@ hr{
     height: 10px !important;
     border-radius: 5px !important;
     color: #2559C1 !important;
+}
+
+.carousel-control-next .carousel-control-prev {
+    top: 1px;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -133,7 +137,7 @@ hr{
 
 #vista2 .hr{
     margin-left: 140%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #vista2 .tittle {
@@ -168,6 +172,15 @@ hr{
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
     margin-left: -30px;
+    overflow-y: scroll;
+}
+
+#vista2 .formulario .start {
+    margin-top: 30px;
+}
+
+#vista2 .formulario .end {
+    margin-bottom: 30px;
 }
 
 #vista2 .formulario .row {
@@ -186,7 +199,7 @@ hr{
 
 #vista3 .hr{
     margin-left: 140%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #vista3 .tittle {
@@ -217,17 +230,15 @@ hr{
 
 #vista3 .subItems .subItems1 {
     width: 80%;
-    margin-top: 15px;
-    margin-left: 60px;
+    margin: 15px 0px 25px 80px;
 }
 
-#vista3 .subItems .pelota {
-    width: 40px;
-    height: 40px;
-    background: #28B6F6;
-    border-radius: 50%;
+#vista3 .subItems .envio {
+    margin-top: 15px;
+}
+
+#vista3 .subItems img {
     position: absolute;
-    padding-right: 5px;
 }
 
 #vista3 .subItems .subItems1 p {
@@ -263,7 +274,7 @@ hr{
 
 #vista4 .hr{
     margin-left: 140%;
-    margin-top: 20px;
+    margin-top: 10px;
 } 
 
 #vista4 .tittle {
@@ -292,6 +303,31 @@ hr{
     border-radius: 25px;
 }
 
+#vista4 .items-carrusel-p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15%;
+    margin-left: 25px;
+
+}
+
+#vista4 .items-carrusel .row p {
+    font-size: 18px;
+    margin-left: 120px;
+
+}
+
+#vista4 .items-carrusel img { 
+    width: auto;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#carouselExampleControls {
+    margin-top: 25px;
+    margin-right: 20px;
+}
 /* -------------------------------------------------------------------------- */
 #vista5 {
     width: 100%;
@@ -303,7 +339,7 @@ hr{
 
 #vista5 .hr{
     margin-left: 140%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #vista5 .tittle {
@@ -375,7 +411,7 @@ hr{
 
 #vista6 .hr{
     margin-left: 140%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #vista6 .tittle {
@@ -453,7 +489,7 @@ hr{
 
 #vista7 .hr{
     margin-left: 140%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #vista7 .tittle {
@@ -486,10 +522,7 @@ hr{
 }
 
 #vista7 .subtittle2 {
-    float: right;
-    width: 45%;
-    margin-top: 50px;
-    margin-right: 80px;
+    margin-left: -160px;
 }
 
 #vista7 .subtittle2 h4{
@@ -500,4 +533,8 @@ hr{
     color: #2559C1;
     width: 100%;
     text-align: right;
+}
+
+#vista7 .imgEnd {
+    width: 70%;
 }
