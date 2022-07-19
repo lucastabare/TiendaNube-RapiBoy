@@ -572,6 +572,28 @@ hr{
     margin-top: 5px;
 }
 
+#vista6 .hr-carrusel {
+    border: 1px solid #CFCFCF;
+    width: 90%;
+    margin-left: 5%;
+    bottom: 22px;
+    position: absolute;
+}
+
+#carouselExampleControls3 .carousel-control-prev {
+    width: auto;
+    left: 40%;
+    bottom: 5px;
+    top: inherit;
+}
+
+#carouselExampleControls3 .carousel-control-next {
+    width: auto;
+    right: 40%;
+    bottom: 5px;
+    top: inherit;
+}
+
 /* -------------------------------------------------------------------------- */
 #vista7 {
     width: 100%;
