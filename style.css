@@ -71,13 +71,11 @@ hr{
 }
 
 #carouselExampleControls {
-    margin-top: 10px;
     margin-right: 20px;
     height: 100%;
 }
 
 #carouselExampleControls2 {
-    margin-top: 10px;
     margin-right: 20px;
     height: 100%;
 }
@@ -86,28 +84,13 @@ hr{
     height: 100%;
 }
 
-.carousel-control-prev {
-    top: inherit !important;
-    width: auto !important;
-    bottom: inherit !important;
-    opacity: 1 !important;
-}
-
-.carousel-control-next {
-    top: inherit !important;
-    width: auto !important;
-    bottom: inherit !important;
-    opacity: 1 !important;
-}
-
-/* .carousel-control-next-icon{
-    background-image: url(""); 
+.carousel-control-next-icon{
+    background-image: url("right-chevron.png"); 
 }
 
 .carousel-control-prev-icon{
-    background-image: url("") ;
+    background-image: url("left-chevron.png") ;
 }
-*/
 
 .carousel-inner {
     height: 100% !important;
@@ -367,6 +350,27 @@ hr{
     margin-top: 5px;
 }
 
+#vista4 .hr-carrusel {
+    border: 1px solid #CFCFCF;
+    width: 90%;
+    margin-left: 5%;
+    bottom: 30px;
+    position: absolute;
+}
+
+#carouselExampleControls .carousel-control-prev {
+    width: auto;
+    left: 40%;
+    bottom: 10px;
+    top: inherit;
+}
+
+#carouselExampleControls .carousel-control-next {
+    width: auto;
+    right: 40%;
+    bottom: 10px;
+    top: inherit;
+}
 /* -------------------------------------------------------------------------- */
 #vista5 {
     width: 100%;
@@ -442,13 +446,34 @@ hr{
 #vista5 .subTittle .carrusel {
     position: absolute;
     width: 50%;
-    height: 450px;
+    height: 460px;
     background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
     margin-left: 45%;
 }
 
+#vista5 .hr-carrusel {
+    border: 1px solid #CFCFCF;
+    width: 90%;
+    margin-left: 5%;
+    bottom: 30px;
+    position: absolute;
+}
+
+#carouselExampleControls2 .carousel-control-prev {
+    width: auto;
+    left: 40%;
+    bottom: 10px;
+    top: inherit;
+}
+
+#carouselExampleControls2 .carousel-control-next {
+    width: auto;
+    right: 40%;
+    bottom: 10px;
+    top: inherit;
+}
 
 /* -------------------------------------------------------------------------- */
 #vista6 {
