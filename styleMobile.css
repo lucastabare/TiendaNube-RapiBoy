@@ -1,0 +1,57 @@
+@media screen and (max-width: 1000px) {
+    #vista1 .tittle h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #vista1 .subTittle h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #vista1 .video {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-top: 8%;
+    }
+
+    #vista1 .video iframe {
+        margin-top: 5px;
+        margin-left: 40px;
+        width: 650px;
+        height: 320px;
+    }
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+    #vista2 .hr img {
+        width: 120px;
+    }
+
+    #vista2 .tittle {
+        margin-left: 10px;
+    } 
+
+    #vista2 .row h6 {
+        margin-left: 10px;
+    }
+
+    #vista2 .formulario {
+        width: 95%;
+        margin-left: 35px;
+    }
+
+    /* -------------------------------------------------------------------------- */
+
+    #vista3 .hr img {
+        width: 120px;
+    }
+
+    #vista3 .tittle h6 {
+        font-size: 20px;
+    }
+}

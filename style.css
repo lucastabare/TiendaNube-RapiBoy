@@ -101,6 +101,20 @@ hr{
     right: 60px;
 }
 
+.floatCenterSlice {
+    position: absolute; 
+    bottom: -50px; 
+    left: 50%; 
+    color: #CFCFCF;
+}
+
+.floatCenterSlice2 {
+    position: absolute; 
+    bottom: -75px; 
+    left: 50%; 
+    float: #CFCFCF;
+}
+
 span {
     color: #626262;
 }
@@ -154,7 +168,7 @@ span {
     height: 400px;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     #vista1 .tittle h2 {
         font-size: 50px;
         text-align: center;
@@ -177,7 +191,7 @@ span {
         width: 650px;
         height: 320px;
     }
-}
+} */
 
 @media screen and (max-width: 400px) {
     #vista1 .tittle h2 {
@@ -251,7 +265,7 @@ span {
     font-size: 22px;
     line-height: 28px;
     color: #1F1F1F;
-    width: 60%;
+    width: 80%;
 }
 
 #vista2 .formulario {
@@ -349,7 +363,6 @@ span {
 #vista3 .tittle h4 {
     font-size: 50px;
     font-weight: 900;
-    font-size: 50px;
 }
 
 #vista3 .tittle h6 {
@@ -505,10 +518,11 @@ span {
 
 #vista4 .carrusel {
     margin: 0 auto;
-    height: 450px;
+    height: 420px;
     background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
     border-radius: 25px;
+    margin-top: 2%;
 }
 
 #vista4 .items-carrusel-p {
@@ -649,11 +663,9 @@ span {
     margin-top: 5px;
 }
 
-/* #vista5 .subTittle {
-    margin-left: 80px;
-    justify-content: center;
-    
-} */
+#vista5 .subTittle {
+    margin-top: 2%;
+} 
 
 #vista5 .subTittle .subItems1{
     margin-top: 120px;
@@ -693,6 +705,13 @@ span {
     right: 40%;
     bottom: 10px;
     top: inherit;
+}
+
+#vista5 .floatCenterSlice {
+    position: absolute;
+    bottom: -55px;
+    left: 48%;
+    color: #CFCFCF;
 }
 
 /* -------------------------------------------------------------------------- */
