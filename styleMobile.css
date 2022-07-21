@@ -1,4 +1,23 @@
 @media screen and (max-width: 1000px) {
+    .floatCenterSlice {
+        bottom: -75px;
+        left: 48%;
+    } 
+
+    .floatCenterSlice2 {
+        bottom: -100px;
+        left: 48%;
+    }
+    
+    .floatRightHelp {
+        bottom: 55px;
+    }
+    
+    .container {
+        margin-top: 5rem;
+    }
+    
+   /* -------------------------------------------------------------------------- */ 
     #vista1 .tittle h2 {
         font-size: 50px;
         text-align: center;
@@ -18,13 +37,10 @@
 
     #vista1 .video iframe {
         margin-top: 5px;
-        margin-left: 40px;
-        width: 650px;
+        margin-left: 15px;
+        width: 95%;
         height: 320px;
     }
-
-
-
 
 /* -------------------------------------------------------------------------- */
 
@@ -43,25 +59,258 @@
     #vista2 .formulario {
         width: 95%;
         margin-left: 35px;
+        margin-top: 2rem;
     }
 
     /* -------------------------------------------------------------------------- */
-
+    #vista3 .container {
+        margin-top: 2rem;
+    }
     #vista3 .hr img {
         width: 120px;
     }
 
     #vista3 .tittle h6 {
         font-size: 20px;
+        width: 90%;
     }
 
     #vista3 .subItems .subItems2 {
+        height: 420px;
         width: 100%;
     }
 
     #vista3 .subItems .subItems2 img {
-        width: 100%;
+        object-fit: contain;
         margin-left: 0;
-        
+        height: 31%;
+        left: 25%;
     }
+
+    /* -------------------------------------------------------------------------- */
+
+    #vista4 .hr img {
+        width: 120px;
+    }
+
+    #vista4 .tittle h6 {
+        font-size: 20px;
+    }
+
+    #vista4 .carrusel {
+        height: 700px;
+    }
+
+    #vista4 .items-carrusel-p {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #vista4 .exito {
+        margin-top: 10px;
+    }
+
+    #vista4 .items-carrusel{
+        margin-bottom: 2rem;
+    }
+
+    #vista4 .items-carrusel img{
+        margin-top: 0px;
+    }
+
+    #vista4 .img-img4 {
+        margin-top: 8%;
+    }
+
+    #carouselExampleControls {
+        margin-right: 0px;
+    }
+
+    /* -------------------------------------------------------------------------- */
+
+    #vista5 .hr img {
+        width: 120px;
+    }
+
+    #vista5 .tittle h6 {
+        font-size: 20px;
+    }
+
+    #vista5 .tittle h6 {
+        width: 50%;
+    }
+
+    #vista5 .subTittle .carrusel {
+        width: 100%;
+    }
+
+    #vista5 .items-carrusel {
+        margin-bottom: 5rem;
+    }
+
+    #vista5 .items-carrusel-p {
+        margin-top: 5%;
+        margin-left: 0px;
+    }
+
+    #vista5 .subTittle .carrusel {
+        height: 460px;
+    }
+
+    #vista5 .items-carrusel img {
+        margin-top: 0px;
+    }
+
+    /* -------------------------------------------------------------------------- */
+
+    #vista6 .hr img {
+        width: 120px;
+    }
+
+    #vista6 .tittle h6 {
+        font-size: 20px;
+    }
+
+
+    #vista6 .subTittle .carrusel {
+        width: 100%;
+        height: 460px;
+        margin-top: 5rem;
+    }
+
+    #vista6 .items-carrusel-p {
+        margin-left: 0px;
+    }
+
+    #vista6 .items-carrusel img {
+        margin-top: 0px;
+    }
+
+    /* -------------------------------------------------------------------------- */
+
+    #vista7 .bg-img {
+        height: 40vh;
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    #vista2 .formulario {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .floatRightHelp {
+        bottom: 30px;
+    }
+
+    .container {
+        overflow: scroll;
+        height: 100vh;
+        margin-top: 2rem;
+    }
+
+
+    /* -------------------------------------------------------------------------- */ 
+    #vista1 {
+        height: 750px;
+    }
+    
+    #vista1 .tittle {
+        margin-top: 0px;
+    }
+
+    #vista1 .tittle h2 {
+        line-height: 50px;
+    }
+
+    #vista1 .video {
+        margin-top: 0px;
+    }
+
+    #vista1 .video iframe {
+        border-radius: 20px;
+    }
+
+    /* -------------------------------------------------------------------------- */ 
+    #vista2 {
+        height: 750px;
+    }
+
+    #vista2 .hr {
+        margin-left: 125%;
+    }
+
+    #vista2 .tittle h4 {
+        font-size: 40px;
+    }
+
+    #vista2 .row h6 {
+        font-size: 15px;
+    }
+
+    #vista2 .formulario {
+        margin-top: 0px;
+        font-size: 12px;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    /* -------------------------------------------------------------------------- */ 
+    #vista3 {
+        height: 750px;
+    }
+
+    #vista3 .hr {
+        margin-left: 125%;
+    }
+
+    #vista3 .tittle h4 {
+        font-size: 40px;
+    }
+
+    #vista3 .tittle h6 {
+        font-size: 15px;
+    }
+
+    #vista3 .subItems {
+        margin-bottom: 2rem;
+    }
+
+    #vista3 .subItems h6 {
+        font-size: 20px;
+    }
+
+    #vista3 .subItems .subItems1 p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #vista3 .subItems .subItems1 {
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    #vista3 .subItems img {
+        position: relative;
+    }
+
+    #vista3 .subItems .subItems2 img {
+        height: 90%;
+        left: 15%;
+    }
+
+    #vista3 .subItems .subItems2 {
+        height: 400px;
+        width: 100%;
+    }
+
+    #vista3 .subItems .row .row {
+        margin-bottom: 1rem;
+    }
+
+
 }
