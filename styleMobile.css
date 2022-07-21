@@ -315,6 +315,16 @@
 }
 
 @media screen and (max-width: 500px) {
+    .floatRightHelp {
+        display: none;
+    }
+    .floatCenterSlice2 {
+        display: none;
+    }
+
+    .floatCenterSlice{
+        display: none;
+    }
 
     /* -------------------------------------------------------------------------- */
     #vista2 .hr {
