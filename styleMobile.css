@@ -54,4 +54,14 @@
     #vista3 .tittle h6 {
         font-size: 20px;
     }
+
+    #vista3 .subItems .subItems2 {
+        width: 100%;
+    }
+
+    #vista3 .subItems .subItems2 img {
+        width: 100%;
+        margin-left: 0;
+        
+    }
 }
