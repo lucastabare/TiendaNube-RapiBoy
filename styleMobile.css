@@ -104,6 +104,7 @@
     #vista4 .items-carrusel-p {
         margin-left: 10px;
         margin-top: 10px;
+        margin-right: 10px;
     }
 
     #vista4 .exito {
@@ -311,6 +312,324 @@
     #vista3 .subItems .row .row {
         margin-bottom: 1rem;
     }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* -------------------------------------------------------------------------- */
+    #vista2 .hr {
+        margin-left: 100%;
+    }
+
+    #vista2 .formulario {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista3 .hr {
+        margin-left: 100%;
+    }
+
+    #vista3 .subItems .subItems1 {
+        margin-left: 22px;
+    }
+
+    #vista3 .subItems .subItems2 {
+        height: 300px;
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+    #vista3 .subItems .subItems2 img {
+        height: 95%;
+        left: 0;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista4 {
+        height: 750px;
+    }
+    
+    #vista4 .hr {
+        margin-left: 100%;
+    }
+
+    #vista4 .tittle h6 {
+        width: 80%;
+    }
+
+    #vista4 .carrusel {
+        height: 650px;
+        margin-bottom: 2rem;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista5 {
+        height: 750px;
+    }
+    
+    #vista5 .hr {
+        margin-left: 100%;
+    }
+
+    #vista5 .tittle h6 {
+        width: 80%;
+    }
+
+    #vista5 .subTittle .carrusel {
+        height: 320px;
+        margin-bottom: 2rem;
+    }
+
+    #vista5 .items-carrusel img {
+        margin-left: 0px;
+        position: relative;
+    }
+
+    #vista5 .items-carrusel .row p {
+        margin-left: 50px;
+    }
+
+    #vista5 .items-carrusel {
+        margin-bottom: 2rem;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista6 {
+        height: 750px;
+    }
+    
+    #vista6 .hr {
+        margin-left: 100%;
+    }
+
+    #vista6 .tittle h6 {
+        width: 80%;
+    }
+
+    #vista6 .items-carrusel .row p {
+        width: 90%;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+
+    #vista6 .subTittle .carrusel {
+        margin-top: 2rem;
+        height: 350px;
+        margin-bottom: 2rem;
+    }
+
+    #vista6 .items-carrusel img {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    #vista6 .items-carrusel-p {
+        margin-top: 5%;
+    }
 
 
+    /* -------------------------------------------------------------------------- */
+    #vista7 .tittle h4 {
+        font-size: 40px;
+    }
+
+    #vista7 .subtittle1 p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .floatRightHelp{
+        display: none;
+    }
+    
+    #vista1 .video iframe {
+        margin-left: 9px;
+    }
+
+
+    /* -------------------------------------------------------------------------- */
+    #vista2 .container {
+        margin-top: 1rem;
+        margin-bottom: 2rem
+    }
+    
+    #vista2 .hr {
+        margin-left: 65%;
+    }
+
+    #vista2 .tittle {
+        margin-left: 0px;
+    }
+
+    #vista2 .row h6 {
+        margin-left: 0px;
+    }
+
+    /* #vista2 .formulario {
+        margin-left: 9px;
+    } */
+
+    /* -------------------------------------------------------------------------- */
+    #vista3 .container {
+        margin-top: 1rem;
+        margin-bottom: 2rem
+    }
+    
+    #vista3 .hr {
+        margin-left: 65%;
+    }
+
+    #vista3 .tittle {
+        margin-left: 0px;
+    }
+
+    #vista3 .subItems img {
+        width: 40px;
+    }
+
+    #vista3 .subItems .subItems2{
+        margin-left: 15px;
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    #vista3 .subItems .subItems1 p {
+        margin-bottom: 0px;
+    }
+
+    #vista3 .subItems .subItems2 img {
+        left: 5%;
+        width: 95%;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    .floatCenterSlice2 {
+        display: none;
+    }
+
+    .floatCenterSlice{
+        display: none;
+    }
+    
+    #vista4 .container {
+        margin-top: 1rem;
+        margin-bottom: 2rem
+    }
+    
+    #vista4 .hr {
+        margin-left: 65%;
+    }
+
+    #vista4 .tittle {
+        margin-left: 0px;
+    }
+
+    #vista4 .tittle h4 {
+        font-size: 40px;
+    }
+
+    #carouselExampleControls .carousel-control-prev {
+        left: 20%;
+    }
+
+    #carouselExampleControls .carousel-control-next {
+        right: 20%;
+    } 
+
+    #vista4 .items-carrusel img {
+        margin-left: 10px;
+    }
+
+    #vista4 .items-carrusel .row p {
+        margin-left: 100px;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista5 .container {
+        margin-top: 1rem;
+        margin-bottom: 2rem
+    }
+    
+    #vista5 .hr {
+        margin-left: 65%;
+    }
+
+    #vista5 .tittle {
+        margin-left: 0px;
+    }
+
+    #vista5 .tittle h4 {
+        font-size: 40px;
+    }
+
+    #vista5 .items-carrusel img {
+        width: 70px;
+        margin-top: 10px;
+    }
+
+    #vista5 .subTittle .carrusel {
+        height: 280px;
+        width: 95%;
+        margin-left: 5px;
+    }
+
+    #carouselExampleControls2 .carousel-control-next {
+        right: 20%;
+    }
+
+    #carouselExampleControls2 .carousel-control-prev {
+        left: 20%;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista6 .container {
+        margin-top: 1rem;
+        margin-bottom: 2rem
+    }
+    
+    #vista6 .hr {
+        margin-left: 65%;
+    }
+
+    #vista6 .tittle {
+        margin-left: 0px;
+    }
+
+    #vista6 .tittle h4 {
+        font-size: 40px;
+    }
+
+    #vista6 .items-carrusel-p {
+        margin-top: 0px;
+    }
+
+    #vista6 .items-carrusel img {
+        width: 70px;
+        margin-top: 10px;
+    }
+
+    #vista6 .subTittle .carrusel {
+        height: 280px;
+        width: 95%;
+        margin-left: 8px;
+    }
+
+    #carouselExampleControls3 .carousel-control-next {
+        right: 20%;
+    }
+
+    #carouselExampleControls3 .carousel-control-prev {
+        left: 20%;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    #vista7 .container {
+        margin-top: 1rem;
+        margin-bottom: 2rem
+    }
 }
