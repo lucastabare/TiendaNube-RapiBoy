@@ -644,7 +644,7 @@
     }
 }
 
-@media screen and (max-width: 700px) and (max-height: 1100px) {
+/* @media screen and (max-width: 700px) and (max-height: 1100px) {
     .container {
         margin-top: 2rem;
         margin-bottom: 0px;
@@ -774,4 +774,4 @@
         margin-top: 1rem;
     }
 
-}
+} */
