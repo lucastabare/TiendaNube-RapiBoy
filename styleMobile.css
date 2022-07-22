@@ -643,3 +643,135 @@
         margin-bottom: 2rem
     }
 }
+
+@media screen and (max-width: 700px) and (max-height: 1100px) {
+    .container {
+        margin-top: 2rem;
+        margin-bottom: 0px;
+        overflow: inherit;
+    }
+
+    #vista1 .floatRightHelp {
+        bottom: -303px;
+    }
+
+    #vista2 .floatRightHelp {
+        bottom: -303px;
+    }
+
+    #vista3 .floatRightHelp {
+        bottom: -303px;
+    }
+
+    #vista3 .subItems .subItems1 {
+        margin-left: 25px;
+    }
+
+    #vista3 .subItems .subItems1 p {
+        margin-top: 5px;
+    }
+
+    #vista3 .subItems .subItems2 img {
+        left: 5%;
+    }
+
+    #carouselExampleControls .carousel-control-next {
+        right: 20%;
+    }
+
+    #carouselExampleControls .carousel-control-prev {
+        left: 20%;
+    }
+
+    .floatCenterSlice {
+        display: none;
+    }
+    
+    .floatCenterSlice2{
+        display: none;
+    }
+    
+    #vista4 .tittle h6 {
+        width: 90%;
+    }
+
+    #vista4 .hr {
+        margin-left: 125%;
+    }
+
+    #vista4 .floatRightHelp{
+        bottom: 50px;
+    }
+
+    #vista4 .carrusel {
+        height: 650px;
+    }
+
+    #carouselExampleControls2 .carousel-control-next {
+        right: 20%;
+    }
+
+    #carouselExampleControls2 .carousel-control-prev {
+        left: 20%;
+    }
+
+    #vista5 .hr{
+        margin-left: 125%;
+    }
+
+    #vista5 .items-carrusel {
+        margin-bottom: 2rem;
+    }
+
+    #vista5 .subTittle .carrusel {
+        height: 370px;
+    }
+
+
+    #vista5 .items-carrusel img {
+        margin-left: 0px;
+    }
+
+    #vista5 .tittle h6 {
+        width: 100%;
+    }
+
+    #vista6 .hr {
+        margin-left: 125%;
+    }
+
+    #vista6 .items-carrusel-p {
+        margin-top: 0px;
+    }
+
+    #vista6 .items-carrusel img {
+        margin-left: 0px;
+    }
+
+    #vista6 .items-carrusel .row p {
+        margin-top: 0px;
+    }
+
+    .floatRightHelp {
+        bottom: 50px;
+    }
+
+    #carouselExampleControls3 .carousel-control-next {
+        right: 20%;
+    }
+
+    #carouselExampleControls3 .carousel-control-prev {
+        left: 20%;
+    }
+
+    #vista6 .subTittle .carrusel {
+        margin-top: 2rem;
+        height: 370px;
+    }
+
+    #vista7 .bg-img {
+        height: 32vh;
+        margin-top: 1rem;
+    }
+
+}

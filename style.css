@@ -632,12 +632,20 @@ span {
     font-size: 22px;
 }
 
-#vista7 .subtittle1 button {
-    font-size: 16px;
+#vista7 .subtittle1 a {
+    font-size: 20px;
     width: 284px;
     height: 37px;
     background: #2559C1;
     border-radius: 63px;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+}
+
+#vista7 .subtittle1 a:hover {
+    background: #f8faff;
+    color: #2559c1;
+    border: 3px solid #2559c1;
 }
 
 #vista7 .subtittle2 h4{
