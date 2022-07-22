@@ -452,6 +452,53 @@
 
 }
 
+@media screen and (max-width: 400px) {
+    #vista2 .hr {
+        margin-left: 70%;
+    }
+
+    #vista3 .hr {
+        margin-left: 70%;
+    }
+    
+    #vista4 .hr {
+        margin-left: 70%;
+    }
+
+    #vista5 .hr {
+        margin-left: 70%;
+    }
+
+    #vista6 .hr {
+        margin-left: 70%;
+    }
+
+    #vista1 .container {
+        overflow: inherit;
+        margin-top: 2rem;
+    }
+
+    #vista1 .video iframe {
+        margin-left: 10px;
+    }
+
+    #vista3 .subItems .subItems1 p {
+        margin-left: 5px;
+    }
+
+    #vista3 .subItems .subItems2 img {
+        left: -18%;
+    }
+
+    #vista7 .bg-img {
+        height: 30vh;
+    }
+
+    #vista7 .subtittle2 h4 {
+        margin-bottom: 2rem;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .floatRightHelp{
         display: none;
