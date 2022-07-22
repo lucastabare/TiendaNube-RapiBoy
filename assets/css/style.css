@@ -84,11 +84,11 @@ hr{
 }
 
 .carousel-control-next-icon{
-    background-image: url("/assets/img/right-chevron.png"); 
+    background-image: url("/assets/img/right-chevron.jpg"); 
 }
 
 .carousel-control-prev-icon{
-    background-image: url("/assets/img/left-chevron.png") ;
+    background-image: url("/assets/img/left-chevron.jpg") ;
 }
 
 .carousel-inner {
@@ -664,7 +664,7 @@ span {
 
 #vista7 .bg-img {
     background-size: 100%;
-    background-image:url('/assets/img/imgV6.png'); 
+    background-image:url('/assets/img/imgV6.jpg'); 
     background-repeat: no-repeat;
     height: 60vh;
 }
