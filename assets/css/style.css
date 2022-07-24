@@ -214,6 +214,29 @@ span {
     margin-left: -30px;
 }
 
+#vista2 .formulario {
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    /*margin-left: -30px;*/
+    overflow-y: scroll;
+}
+
+#vista2 .formulario::-webkit-scrollbar {
+    width: 5px;
+}
+
+#vista2 .formulario::-webkit-scrollbar-thumb {
+    background: #c3c3c3;
+    border-radius: 10px;
+}
+
+#vista2 .formulario::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
 #vista2 .formulario .start {
     margin-top: 15px;
 }
